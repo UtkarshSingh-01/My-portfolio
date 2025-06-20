@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsh Singh Parihar | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Utkarsh Singh Parihar</h1>
+        <div class="menu-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="profile-container">
+            <img src="Profile.jpeg" alt="My Profile Picture" class="profile-img">
+        </div>
+        <p>Hi, I'm Utkarsh Singh Parihar, Currently pursuing B-tech from IILM University, Greater Noida with a
+            specialisation in Cyber Security. Eager to
+            learn and apply my knowledge in a professional role. Possess strong skills in Game Development, Web
+            Development, and Problem Solving. Enthusiastic and excited to contribute to a fast-paced environment.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+
+            <div class="project">
+                <h3>QuizItUp – Online Quiz Platform</h3>
+                <p>A fully functional MCQ-based quiz website covering various computer science domains like DBMS, OOPS,
+                    Operating System, Data Structures, Algorithms, and Computer Networks. Users can also create and save
+                    custom quizzes. The platform features a leaderboard to track top performers.</p>
+                <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+                <a href="https://utkarshsingh-01.github.io/QuizItUp/">View Project</a>
+            </div>
+
+            <div class="project">
+                <h3>Good Health and Well Being – Health Care Website</h3>
+                <p>A modern website designed to promote awareness of healthy living. It offers tips on balanced diet,
+                    physical fitness, and mental wellness. Users can access both free and premium services, as well as
+                    purchase health-related products directly through the platform.</p>
+                <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+                <a href="https://utkarshsingh-01.github.io/Health-Care-and-Well-being/">View Project</a>
+            </div>
+
+            <div class="project">
+                <h3>University Management System</h3>
+                <p>A desktop application built using Java to manage university operations. It includes features such as
+                    student registration, course enrollment, faculty assignments, and data management via GUI forms.
+                    Focused on automation and ease of access.</p>
+                <p><strong>Tech Stack:</strong> Java (Swing/JavaFX), Excel, Json</p>
+                <a href="https://github.com/UtkarshSingh-01/university-management">View Project</a>
+            </div>
+
+            <div class="project">
+                <h3>Face Recognition Attendance System</h3>
+                <p>This system captures and recognizes student faces to automate attendance. Built using Python, it
+                    includes user registration, real-time detection, model training, password-protected access, and a
+                    modern Tkinter GUI with CSV-based report export.</p>
+                <p><strong>Tech Stack:</strong> Python, OpenCV, Tkinter, Pandas, NumPy</p>
+                <a href="https://github.com/UtkarshSingh-01/Face-Recognition-based-Attendance-System">View Project</a>
+            </div>
+
+            <div class="project">
+                <h3>Real-Time Object Detection System</h3>
+                <p>A computer vision project for real-time object detection via webcam. Uses YOLO, TensorFlow, and
+                    OpenCV to detect and label objects like people, vehicles, and items dynamically. Designed to enhance
+                    hands-on experience with ML and AI models.</p>
+                <p><strong>Tech Stack:</strong> Python, OpenCV, TensorFlow, YOLO</p>
+                <a href="https://github.com/UtkarshSingh-01/Object-Detection">View Project</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Languages</h3>
+                <p>C, C#, Java, Python, HTML, CSS, JavaScript</p>
+            </div>
+            <div class="project">
+                <h3>Game Development</h3>
+                <p>Unity (Android and PC games), Joystick movement, Player interaction, Score management</p>
+            </div>
+            <div class="project">
+                <h3>Web Development & DSA</h3>
+                <p>Interactive website design, form handling, quiz/game logic implementation, responsive UI development.
+                    Solid knowledge of Data Structures and Algorithms to build efficient code.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:us7692334@gmail.com">us7692334@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/feed/" target="_blank">Visit My LinkedIn</a></p>
+        <div class="image-logo">
+            <a href="https://github.com/UtkarshSingh-01" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/240px-GitHub_Invertocat_Logo.svg.png"
+                    alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="LinkedIn">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Utkarsh Singh Parihar. All rights reserved.</p>
+    </footer>
+
+</body>
+<script>
+    const toggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('nav ul');
+
+    toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+    });
+</script>
+
+</html>
