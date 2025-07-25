@@ -1,143 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Utkarsh Singh Parihar | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Utkarsh Singh Parihar | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <img src="Profile.jpeg" alt="Utkarsh" class="profile-img" />
+      <h1>Utkarsh Singh Parihar</h1>
+      <p>B.Tech CSE - Cyber Security</p>
+      <p class="description">Web & Game Developer | AI/ML Explorer | Cyber Security Student</p>
+      <a href="resume.pdf" class="btn" download>📄 Download Resume</a>
+    </aside>
 
-    <header>
-        <h1>Utkarsh Singh Parihar</h1>
-        <div class="menu-toggle">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+    <!-- Main content -->
+    <main class="main-content">
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+      <section id="home" class="section fade">
+        <h2>Welcome!</h2>
+        <p>Explore my portfolio to see my work in web development, game projects, AI/ML tools, and more.</p>
+      </section>
 
-    <section id="about">
+      <section id="about" class="section fade">
         <h2>About Me</h2>
-        <div class="profile-container">
-            <img src="Profile.jpeg" alt="My Profile Picture" class="profile-img">
-        </div>
-        <p>Hi, I'm Utkarsh Singh Parihar, Currently pursuing B-tech from IILM University, Greater Noida with a
-            specialisation in Cyber Security. Eager to
-            learn and apply my knowledge in a professional role. Possess strong skills in Game Development, Web
-            Development, and Problem Solving. Enthusiastic and excited to contribute to a fast-paced environment.
-        </p>
-    </section>
+        <p>I am currently pursuing B.Tech in Computer Science with a specialization in Cyber Security at IILM University, Greater Noida. I'm passionate about learning, building creative solutions, and making a positive impact through technology.</p>
+        <p>I enjoy working on real-world applications like face recognition, object detection, educational platforms, and mobile games. I'm a quick learner with great teamwork and problem-solving skills.</p>
+      </section>
 
-    <section id="projects">
+      <section id="projects" class="section fade">
         <h2>Projects</h2>
-        <div class="projects-container">
-
-            <div class="project">
-                <h3>QuizItUp – Online Quiz Platform</h3>
-                <p>A fully functional MCQ-based quiz website covering various computer science domains like DBMS, OOPS,
-                    Operating System, Data Structures, Algorithms, and Computer Networks. Users can also create and save
-                    custom quizzes. The platform features a leaderboard to track top performers.</p>
-                <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-                <a href="https://utkarshsingh-01.github.io/QuizItUp/">View Project</a>
-            </div>
-
-            <div class="project">
-                <h3>Good Health and Well Being – Health Care Website</h3>
-                <p>A modern website designed to promote awareness of healthy living. It offers tips on balanced diet,
-                    physical fitness, and mental wellness. Users can access both free and premium services, as well as
-                    purchase health-related products directly through the platform.</p>
-                <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-                <a href="https://utkarshsingh-01.github.io/Health-Care-and-Well-being/">View Project</a>
-            </div>
-
-            <div class="project">
-                <h3>University Management System</h3>
-                <p>A desktop application built using Java to manage university operations. It includes features such as
-                    student registration, course enrollment, faculty assignments, and data management via GUI forms.
-                    Focused on automation and ease of access.</p>
-                <p><strong>Tech Stack:</strong> Java (Swing/JavaFX), Excel, Json</p>
-                <a href="https://github.com/UtkarshSingh-01/university-management">View Project</a>
-            </div>
-
-            <div class="project">
-                <h3>Face Recognition Attendance System</h3>
-                <p>This system captures and recognizes student faces to automate attendance. Built using Python, it
-                    includes user registration, real-time detection, model training, password-protected access, and a
-                    modern Tkinter GUI with CSV-based report export.</p>
-                <p><strong>Tech Stack:</strong> Python, OpenCV, Tkinter, Pandas, NumPy</p>
-                <a href="https://github.com/UtkarshSingh-01/Face-Recognition-based-Attendance-System">View Project</a>
-            </div>
-
-            <div class="project">
-                <h3>Real-Time Object Detection System</h3>
-                <p>A computer vision project for real-time object detection via webcam. Uses YOLO, TensorFlow, and
-                    OpenCV to detect and label objects like people, vehicles, and items dynamically. Designed to enhance
-                    hands-on experience with ML and AI models.</p>
-                <p><strong>Tech Stack:</strong> Python, OpenCV, TensorFlow, YOLO</p>
-                <a href="https://github.com/UtkarshSingh-01/Object-Detection">View Project</a>
-            </div>
-
+        <div class="project-grid">
+          <!-- Each project -->
+          <div class="project-card slide-up">
+            <h3>QuizItUp</h3>
+            <p>Quiz platform with DBMS, OS, DSA topics. Leaderboard & user-created quizzes.</p>
+            <a href="https://utkarshsingh-01.github.io/QuizItUp/" target="_blank">🔗 View Project</a>
+          </div>
+          <div class="project-card slide-up">
+            <h3>Health & Well Being</h3>
+            <p>Health awareness site with premium & free services. Includes product catalog.</p>
+            <a href="https://utkarshsingh-01.github.io/Health-Care-and-Well-being/" target="_blank">🔗 View Project</a>
+          </div>
+          <div class="project-card slide-up">
+            <h3>University Management</h3>
+            <p>Java GUI app to manage student/faculty/course data using Excel/JSON.</p>
+            <a href="https://github.com/UtkarshSingh-01/university-management" target="_blank">🔗 View Project</a>
+          </div>
+          <div class="project-card slide-up">
+            <h3>Face Recognition Attendance</h3>
+            <p>Python + OpenCV system with GUI, password, CSV report generation.</p>
+            <a href="https://github.com/UtkarshSingh-01/Face-Recognition-based-Attendance-System" target="_blank">🔗 View Project</a>
+          </div>
+          <div class="project-card slide-up">
+            <h3>Object Detection</h3>
+            <p>YOLOv8 + TensorFlow real-time object recognition via webcam.</p>
+            <a href="https://github.com/UtkarshSingh-01/Object-Detection" target="_blank">🔗 View Project</a>
+          </div>
+          <div class="project-card slide-up">
+            <h3>AI HealthScan</h3>
+            <p> A smart web application designed to assist users with early diagnosis of various diseases using trained machine learning models and a symptom-based Q&A system.</p>
+            <a href="https://github.com/UtkarshSingh-01/AI-in-HealthCare" target="_blank">🔗 View Project</a>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section id="skills">
+      <section id="skills" class="section fade">
         <h2>Skills</h2>
-        <div class="projects-container">
-            <div class="project">
-                <h3>Languages</h3>
-                <p>C, C#, Java, Python, HTML, CSS, JavaScript</p>
-            </div>
-            <div class="project">
-                <h3>Game Development</h3>
-                <p>Unity (Android and PC games), Joystick movement, Player interaction, Score management</p>
-            </div>
-            <div class="project">
-                <h3>Web Development & DSA</h3>
-                <p>Interactive website design, form handling, quiz/game logic implementation, responsive UI development.
-                    Solid knowledge of Data Structures and Algorithms to build efficient code.</p>
-            </div>
+        <div class="skills-grid">
+          <div class="skill-card fade-up"><strong>Languages</strong><p>Python, Java, C, C#, JavaScript</p></div>
+          <div class="skill-card fade-up"><strong>Frontend</strong><p>HTML, CSS, JavaScript, Responsive UI</p></div>
+          <div class="skill-card fade-up"><strong>Backend</strong><p>Node.js, Express.js, MongoDB, MySQL</p></div>
+          <div class="skill-card fade-up"><strong>Game Dev</strong><p>Unity Engine, joystick controls, interaction, scoring</p></div>
+          <div class="skill-card fade-up"><strong>AI/ML</strong><p>OpenCV, TensorFlow, Regression & Classification</p></div>
+          <div class="skill-card fade-up"><strong>Cyber Security</strong><p>Basics, secure systems, awareness via AWS & Infosys</p></div>
+          <div class="skill-card fade-up"><strong>Soft Skills</strong><p>Teamwork, Problem-Solving, Communication</p></div>
         </div>
-    </section>
+      </section>
 
-    <section id="contact">
+      <section id="contact" class="section fade">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:us7692334@gmail.com">us7692334@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/feed/" target="_blank">Visit My LinkedIn</a></p>
-        <div class="image-logo">
-            <a href="https://github.com/UtkarshSingh-01" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/240px-GitHub_Invertocat_Logo.svg.png"
-                    alt="GitHub">
-            </a>
-            <a href="https://www.linkedin.com/feed/" target="_blank">
-                <img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="LinkedIn">
-            </a>
+        <form action="https://formspree.io/f/xwkgvkoj" method="POST" class="contact-form fade-up">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="_replyto" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links fade-up">
+          <a href="mailto:us7692334@gmail.com">📧 Email</a>
+          <a href="https://linkedin.com/in/utkarsh-singh-parihar-90b564254" target="_blank">🔗 LinkedIn</a>
+          <a href="https://github.com/UtkarshSingh-01" target="_blank">💻 GitHub</a>
         </div>
-    </section>
+      </section>
+    </main>
+  </div>
 
-    <footer>
-        <p>&copy; 2025 Utkarsh Singh Parihar. All rights reserved.</p>
-    </footer>
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    }, { threshold: 0.2 });
 
+    document.querySelectorAll(".fade, .fade-up, .slide-up").forEach(el => observer.observe(el));
+  </script>
 </body>
-<script>
-    const toggle = document.querySelector('.menu-toggle');
-    const navLinks = document.querySelector('nav ul');
-
-    toggle.addEventListener('click', () => {
-        navLinks.classList.toggle('show');
-    });
-</script>
-
 </html>
