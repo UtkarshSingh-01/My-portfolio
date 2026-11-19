@@ -1,123 +1,428 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Utkarsh Singh Parihar | Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111310">
+  <meta name="description"
+    content="Utkarsh Singh Parihar — Software Developer | AI & Cybersecurity. Projects, skills, experience and contact.">
+  <title>Utkarsh Singh Parihar | Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <div class="container">
-    <!-- Sidebar -->
-    <aside class="sidebar">
-      <img src="Profile.jpeg" alt="Utkarsh" class="profile-img" />
-      <h1>Utkarsh Singh Parihar</h1>
-      <p>B.Tech CSE - Cyber Security</p>
-      <p class="description">Web & Game Developer | AI/ML Explorer | Cyber Security Student</p>
-      <a href="resume.pdf" class="btn" download>📄 Download Resume</a>
-    </aside>
-
-    <!-- Main content -->
-    <main class="main-content">
-      <nav class="navbar">
-        <ul>
-          <li><a href="#home" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-
-      <section id="home" class="section fade">
-        <h2>Welcome!</h2>
-        <p>Explore my portfolio to see my work in web development, game projects, AI/ML tools, and more.</p>
-      </section>
-
-      <section id="about" class="section fade">
-        <h2>About Me</h2>
-        <p>I am currently pursuing B.Tech in Computer Science with a specialization in Cyber Security at IILM University, Greater Noida. I'm passionate about learning, building creative solutions, and making a positive impact through technology.</p>
-        <p>I enjoy working on real-world applications like face recognition, object detection, educational platforms, and mobile games. I'm a quick learner with great teamwork and problem-solving skills.</p>
-      </section>
-
-      <section id="projects" class="section fade">
-        <h2>Projects</h2>
-        <div class="project-grid">
-          <!-- Each project -->
-          <div class="project-card slide-up">
-            <h3>QuizItUp</h3>
-            <p>Quiz platform with DBMS, OS, DSA topics. Leaderboard & user-created quizzes.</p>
-            <a href="https://utkarshsingh-01.github.io/QuizItUp/" target="_blank">🔗 View Project</a>
+  <div class="noise"></div>
+  <header class="topbar"><a class="brand" href="#home" aria-label="Utkarsh home"><span
+        class="brand-mark">U<span>.</span></span><span>USP<span class="brand-dot">/</span></span></a>
+    <nav id="nav"><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a
+        href="#projects">Projects</a><a href="#credentials">Credentials</a><a href="#contact">Contact</a></nav>
+    <div class="top-actions"><button class="theme-toggle" id="themeToggle"
+        aria-label="Toggle light and dark theme">◐</button><button class="menu-toggle" id="menuToggle"
+        aria-label="Toggle navigation">☰</button></div>
+  </header>
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> OPEN TO OPPORTUNITIES <span class="eyebrow-line"></span> INDIA
+          / REMOTE</div>
+        <p class="intro-label">Hello, I'm</p>
+        <h1>Utkarsh Singh<br><span>Parihar.</span></h1>
+        <h2>Software Developer <i>|</i> AI &amp; Cybersecurity</h2>
+        <p class="hero-lead">Building ideas. Exploring intelligence. Creating experiences.</p>
+        <p class="hero-desc">I build practical software, explore AI-driven solutions, and enjoy turning ideas into
+          useful digital experiences.</p>
+        <div class="hero-buttons"><a class="btn btn-primary" href="assets/Resume.pdf" download>Download Resume
+            <span>↗</span></a><a class="btn btn-outline" href="#contact">Let's connect <span>↗</span></a></div>
+        <div class="social-row"><a href="https://github.com/UtkarshSingh-01" target="_blank" rel="noreferrer">GitHub
+            ↗</a><a href="https://linkedin.com/in/utkarsh-singh-parihar-90b564254" target="_blank"
+            rel="noreferrer">LinkedIn ↗</a><a href="https://leetcode.com/u/Utkarsh1011/" target="_blank"
+            rel="noreferrer">LeetCode ↗</a></div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="initial-card"><span class="card-index">PORTFOLIO / 2026</span>
+          <div class="initials profile-image">
+            <img src="./assets/Profile.jpeg" alt="Profile photograph of Utkarsh Singh Parihar">
           </div>
-          <div class="project-card slide-up">
-            <h3>Health & Well Being</h3>
-            <p>Health awareness site with premium & free services. Includes product catalog.</p>
-            <a href="https://utkarshsingh-01.github.io/Health-Care-and-Well-being/" target="_blank">🔗 View Project</a>
+          <div class="initial-caption">Curiosity → Code → Creation</div>
+          <div class="card-bottom"><span>SOFTWARE / AI / CREATIVE TECH</span><span>01—04</span></div>
+        </div>
+        <div class="float-chip chip-a">&lt;build /&gt;</div>
+        <div class="float-chip chip-b">AI + ML</div>
+        <div class="float-chip chip-c">010101</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+    <section class="section about-section" id="about">
+      <div class="section-head reveal">
+        <p class="kicker">01 / ABOUT</p>
+        <h2>Curious mind.<br><span>Builder's mindset.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-main reveal">
+          <p class="large-copy">I'm a Computer Science student and aspiring software developer passionate about building
+            practical applications, exploring emerging technologies, and solving problems through code.</p>
+          <p>My interests span software engineering, Artificial Intelligence and Machine Learning, and game development.
+            I enjoy experimenting with new tools, transforming ideas into functional projects, and continuously
+            expanding my technical knowledge. I believe in learning by building, thinking creatively, and improving with
+            every project.</p>
+        </div>
+        <div class="about-side reveal">
+          <div class="info-line"><span>EDUCATION</span><strong>B.Tech, Computer Science</strong><small>IILM University ·
+              Greater Noida</small></div>
+          <div class="info-line"><span>ACADEMIC SCORE</span><strong>8.73 CGPA</strong><small>Currently pursuing</small>
           </div>
-          <div class="project-card slide-up">
-            <h3>University Management</h3>
-            <p>Java GUI app to manage student/faculty/course data using Excel/JSON.</p>
-            <a href="https://github.com/UtkarshSingh-01/university-management" target="_blank">🔗 View Project</a>
+          <div class="info-line"><span>WORK STYLE</span><strong>Learn. Build. Iterate.</strong><small>Hands-on ·
+              Analytical · Curious</small></div>
+        </div>
+      </div>
+      <div class="traits reveal"><span>Creative problem solver</span><span>Hands-on builder</span><span>Analytical
+          thinker</span><span>Research-oriented learner</span><span>Adaptable collaborator</span><span>Continuous
+          learner</span></div>
+      <div class="explore-grid">
+        <div class="explore-card reveal">
+          <p class="kicker">CURRENTLY EXPLORING</p>
+          <div class="tag-cloud"><span>Generative AI &amp; LLMs</span><span>AI Agents &amp; Automation</span><span>RAG
+              &amp; Vector Databases</span><span>Full-Stack Development</span><span>Advanced ML</span><span>Unity Game
+              Development</span><span>Software Architecture</span><span>System Design</span></div>
+        </div>
+        <div class="explore-card reveal">
+          <p class="kicker">BEYOND THE CODE</p>
+          <p>Gaming and game development, chess and strategic thinking, exploring emerging technology, and bringing
+            creative software ideas to life.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section skills-section" id="skills">
+      <div class="section-head reveal">
+        <p class="kicker">02 / TOOLKIT</p>
+        <h2>Tools of the <span>trade.</span></h2>
+        <p class="section-note">A growing toolkit across software development, AI, data, and creative technology.</p>
+      </div>
+      <div class="skill-layout reveal">
+        <div class="skill-tabs" role="tablist" aria-label="Skill categories"><button class="skill-tab active"
+            data-skill="programming">01 <span>Programming</span></button><button class="skill-tab" data-skill="web">02
+            <span>Web &amp; Frameworks</span></button><button class="skill-tab" data-skill="data">03 <span>AI, ML &amp;
+              Data</span></button><button class="skill-tab" data-skill="database">04
+            <span>Databases</span></button><button class="skill-tab" data-skill="tools">05 <span>Tools &amp;
+              Platforms</span></button><button class="skill-tab" data-skill="game">06 <span>Game
+              Development</span></button><button class="skill-tab" data-skill="core">07 <span>Core
+              Concepts</span></button><button class="skill-tab" data-skill="genai">08 <span>Generative
+              AI</span></button></div>
+        <div class="skill-panel">
+          <p class="kicker" id="skillEyebrow">PROGRAMMING LANGUAGES</p>
+          <h3 id="skillTitle">Writing logic.<br>Building solutions.</h3>
+          <div class="skill-tags" id="skillTags"><span>Java</span><span>C</span><span>Python</span></div>
+          <p class="skill-foot" id="skillFoot">Languages used across academic and personal development projects.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section experience-section" id="experience">
+      <div class="section-head reveal">
+        <p class="kicker">03 / EXPERIENCE</p>
+        <h2>Learning through <span>doing.</span></h2>
+        <p class="section-note">Internship experience across LLM security research, ethical hacking, and web
+          development.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-date">JUN 01 — NOV 30, 2026 <span>ONLINE / REMOTE</span></div>
+          <div class="timeline-content">
+            <div class="timeline-top">
+              <div>
+                <h3>LLM Security Researcher Intern</h3>
+                <h4>SandBox Security Private Limited</h4>
+              </div><span class="timeline-number">01</span>
+            </div>
+            <p>Worked with Promptfoo, Ollama, Qwen3, Python, and MCP/FastMCP for LLM security testing, automated red
+              teaming, adversarial prompt evaluation, and vulnerability assessment using Kali Linux and Docker.</p>
+            <div class="mini-tags"><span>LLM
+                Security</span><span>Promptfoo</span><span>Ollama</span><span>MCP</span><span>Python</span></div>
           </div>
-          <div class="project-card slide-up">
-            <h3>Face Recognition Attendance</h3>
-            <p>Python + OpenCV system with GUI, password, CSV report generation.</p>
-            <a href="https://github.com/UtkarshSingh-01/Face-Recognition-based-Attendance-System" target="_blank">🔗 View Project</a>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">JAN — MAR, 2026 <span>ONLINE / REMOTE</span></div>
+          <div class="timeline-content">
+            <div class="timeline-top">
+              <div>
+                <h3>Ethical Hacking Intern</h3>
+                <h4>EduSkills</h4>
+              </div><span class="timeline-number">02</span>
+            </div>
+            <p>Completed hands-on ethical hacking and web security projects, gaining practical experience in
+              vulnerability assessment, penetration testing, network security, malware behavior, and Kali Linux tools.
+            </p>
+            <div class="mini-tags"><span>Web Security</span><span>Vulnerability Assessment</span><span>Kali Linux</span>
+            </div>
           </div>
-          <div class="project-card slide-up">
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">MAY — JUL, 2025 <span>ONLINE / REMOTE</span></div>
+          <div class="timeline-content">
+            <div class="timeline-top">
+              <div>
+                <h3>Web Developer Intern</h3>
+                <h4>YBI Foundation</h4>
+              </div><span class="timeline-number">03</span>
+            </div>
+            <p>Developed responsive web applications using HTML, CSS, JavaScript, Python/Flask, and MySQL/MongoDB, with
+              experience in Git/GitHub and cloud deployment.</p>
+            <div class="mini-tags"><span>HTML / CSS / JS</span><span>Flask</span><span>MySQL</span><span>MongoDB</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="section projects-section" id="projects">
+      <div class="section-head reveal">
+        <p class="kicker">04 / SELECTED WORK</p>
+        <h2>Ideas turned into <span>projects.</span></h2>
+        <p class="section-note">A selection of software, AI, and game development projects. Repository links are
+          included where confirmed.</p>
+      </div>
+      <div class="project-filters reveal"><button class="filter active" data-filter="all">All projects</button><button
+          class="filter" data-filter="ai">AI &amp; ML</button><button class="filter"
+          data-filter="health">Healthcare</button><button class="filter" data-filter="software">Software</button><button
+          class="filter" data-filter="games">Games</button></div>
+      <div class="project-grid">
+        <article class="project-card featured reveal" data-category="ai">
+          <div class="project-visual visual-nids"><span class="visual-label">MACHINE LEARNING / NETWORKS</span>
+            <div class="network-graphic"><i></i><i></i><i></i><i></i><i></i><b> NIDS </b></div><span
+              class="visual-code">01 — DEFENSIVE INTELLIGENCE</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>AI &amp; MACHINE LEARNING</span><span>01 / FEATURED</span></div>
+            <h3>Network Intrusion Detection System</h3>
+            <p>Developed a machine-learning-based NIDS using CICIDS2017 to classify network traffic and identify
+              malicious activity through preprocessing, feature scaling, class balancing, and model evaluation.</p>
+            <div class="mini-tags"><span>Python</span><span>Scikit-learn</span><span>Random
+                Forest</span><span>Streamlit</span><span>Pandas</span></div><a class="project-link"
+              href="https://github.com/UtkarshSingh-01/Network-Intrusion-Detection-using-ML" target="_blank"
+              rel="noreferrer">View repository ↗</a>
+          </div>
+        </article>
+        <article class="project-card reveal" data-category="health">
+          <div class="project-visual visual-health"><span class="visual-label">STUDENT WELLBEING / AI</span>
+            <div class="health-symbol">✳</div><span class="visual-code">02 — HUMAN-CENTRED TECH</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>HEALTHCARE &amp; AI</span><span>02</span></div>
+            <h3>Digital Mental Health &amp; Psychological Support</h3>
+            <p>A student wellness platform with an AI chatbot, mood tracking, NLP-based stress detection, multilingual
+              support, and a counsellor appointment portal.</p>
+            <div class="mini-tags">
+              <span>Python</span><span>Flask</span><span>NLP</span><span>MySQL</span><span>JavaScript</span></div><a
+              class="project-link" href="https://github.com/UtkarshSingh-01/Health-Care-and-Well-being" target="_blank"
+              rel="noreferrer">View repository ↗</a>
+          </div>
+        </article>
+        <article class="project-card reveal" data-category="ai">
+          <div class="project-visual visual-fraud"><span class="visual-label">TRANSACTION ANALYSIS</span>
+            <div class="fraud-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="visual-code">03
+              — ANOMALY DETECTION</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>AI &amp; MACHINE LEARNING</span><span>03</span></div>
+            <h3>UPI Fraud Detection System</h3>
+            <p>A machine-learning project focused on identifying potentially fraudulent UPI transactions.</p>
+            <div class="mini-tags"><span>Machine Learning</span><span>Python</span><span>FastAPI</span></div><span
+              class="project-link muted-link">Repository link to be added</span>
+          </div>
+        </article>
+        <article class="project-card reveal" data-category="ai">
+          <div class="project-visual visual-object"><span class="visual-label">COMPUTER VISION</span>
+            <div class="scan-frame"><span></span><b>OBJECT / DETECTED</b></div><span class="visual-code">04 — VISUAL
+              RECOGNITION</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>AI &amp; COMPUTER VISION</span><span>04</span></div>
             <h3>Object Detection</h3>
-            <p>YOLOv8 + TensorFlow real-time object recognition via webcam.</p>
-            <a href="https://github.com/UtkarshSingh-01/Object-Detection" target="_blank">🔗 View Project</a>
+            <p>A computer vision project exploring visual object identification and detection.</p>
+            <div class="mini-tags"><span>Python</span><span>Computer Vision</span><span>Machine Learning</span></div>
+            <span class="project-link muted-link">Repository link to be added</span>
           </div>
-          <div class="project-card slide-up">
-            <h3>AI HealthScan</h3>
-            <p> A smart web application designed to assist users with early diagnosis of various diseases using trained machine learning models and a symptom-based Q&A system.</p>
-            <a href="https://github.com/UtkarshSingh-01/AI-in-HealthCare" target="_blank">🔗 View Project</a>
+        </article>
+        <article class="project-card reveal" data-category="ai">
+          <div class="project-visual visual-face"><span class="visual-label">IDENTITY / AUTOMATION</span>
+            <div class="face-frame">◉</div><span class="visual-code">05 — FACE RECOGNITION</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>AI &amp; COMPUTER VISION</span><span>05</span></div>
+            <h3>Face Recognition-Based Attendance</h3>
+            <p>An attendance management concept using face recognition to support automated identity-based attendance
+              recording.</p>
+            <div class="mini-tags"><span>Python</span><span>Face Recognition</span><span>Computer Vision</span></div>
+            <span class="project-link muted-link">Repository link to be added</span>
+          </div>
+        </article>
+        <article class="project-card reveal" data-category="health">
+          <div class="project-visual visual-clinic"><span class="visual-label">HEALTHCARE TECHNOLOGY</span>
+            <div class="clinic-cross">+</div><span class="visual-code">06 — AI IN HEALTHCARE</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>HEALTHCARE &amp; AI</span><span>06</span></div>
+            <h3>AI in Healthcare</h3>
+            <p>An exploratory project applying artificial intelligence concepts to a healthcare-focused problem space.
+            </p>
+            <div class="mini-tags"><span>AI</span><span>Machine Learning</span></div><span
+              class="project-link muted-link">Repository link to be added</span>
+          </div>
+        </article>
+        <article class="project-card reveal" data-category="software">
+          <div class="project-visual visual-uni"><span class="visual-label">CAMPUS / MANAGEMENT</span>
+            <div class="uni-stack"><i></i><i></i><i></i></div><span class="visual-code">07 — INFORMATION SYSTEM</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>SOFTWARE DEVELOPMENT</span><span>07</span></div>
+            <h3>University Management System</h3>
+            <p>A software project centred on organizing and managing university-related information and workflows.</p>
+            <div class="mini-tags"><span>Software Development</span><span>Database</span></div><span
+              class="project-link muted-link">Repository link to be added</span>
+          </div>
+        </article>
+      </div>
+      <div class="games-heading reveal">
+        <div>
+          <p class="kicker">GAME DEVELOPMENT</p>
+          <h3>Playful ideas.<br><span>Built in 3D &amp; 2D.</span></h3>
+        </div>
+        <p>Experiments in game mechanics, interaction, level design, and player experience.</p>
+      </div>
+      <div class="game-grid">
+        <article class="game-card reveal" data-category="games">
+          <div class="game-art night-art"><span>GAME / 01</span>
+            <div class="moon"></div>
+            <div class="factory">▥ ▥ ▥</div><b>NIGHT SHIFT</b>
+          </div>
+          <div class="game-info">
+            <h4>Night Shift</h4>
+            <p>Horror escape and puzzle game set in an abandoned industrial environment.</p>
+            <div class="mini-tags"><span>Unity</span><span>Horror</span><span>Puzzle</span></div>
+          </div>
+        </article>
+        <article class="game-card reveal" data-category="games">
+          <div class="game-art coin-art"><span>GAME / 02</span>
+            <div class="coin">$</div><b>COIN HEIST</b>
+          </div>
+          <div class="game-info">
+            <h4>Coin Heist</h4>
+            <p>A 2D coin-collecting game built around movement and collection mechanics.</p>
+            <div class="mini-tags"><span>Unity</span><span>2D</span></div>
+          </div>
+        </article>
+        <article class="game-card reveal" data-category="games">
+          <div class="game-art chess-art"><span>GAME / 03</span>
+            <div class="chess-piece">♞</div><b>CHESS WORLD</b>
+          </div>
+          <div class="game-info">
+            <h4>Chess World</h4>
+            <p>A 3D mobile game where a chess piece battles opposing pieces across story and survival modes.</p>
+            <div class="mini-tags"><span>Unity</span><span>3D</span><span>Mobile</span></div>
+          </div>
+        </article>
+      </div>
+      <div class="other-projects reveal">
+        <p class="kicker">OTHER BUILDS</p>
+        <div><span>Quiz It Up</span><span>To-Do List</span></div>
+      </div>
+    </section>
+    <section class="section credentials-section" id="credentials">
+      <div class="section-head reveal">
+        <p class="kicker">05 / CREDENTIALS</p>
+        <h2>Learning, recognised. <span>Milestones, earned.</span></h2>
+      </div>
+      <div class="credential-grid">
+        <div class="credential-column reveal">
+          <h3>Certifications</h3>
+          <div class="credential"><span>APR 2026</span>
+            <div><b>Generative AI Essentials</b><small>TCS Foundation</small></div>
+          </div>
+          <div class="credential"><span>APR 2026</span>
+            <div><b>AI and Cybersecurity Awareness</b><small>TCS Foundation</small></div>
+          </div>
+          <div class="credential"><span>JUN 2025</span>
+            <div><b>Cloud Security Foundations</b><small>AWS Academy</small></div>
+          </div>
+          <div class="credential"><span>JUN 2025</span>
+            <div><b>Generative AI Foundations</b><small>AWS Academy</small></div>
+          </div>
+          <div class="credential"><span>MAY 2025</span>
+            <div><b>Supervised Machine Learning</b><small>Coursera</small></div>
+          </div>
+          <div class="credential"><span>APR 2024</span>
+            <div><b>Introduction to Data Structures &amp; Algorithms</b><small>DataFlair</small></div>
+          </div>
+          <div class="credential"><span>APR 2024</span>
+            <div><b>Introduction to Python</b><small>DataFlair</small></div>
           </div>
         </div>
-      </section>
-
-      <section id="skills" class="section fade">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-          <div class="skill-card fade-up"><strong>Languages</strong><p>Python, Java, C, C#, JavaScript</p></div>
-          <div class="skill-card fade-up"><strong>Frontend</strong><p>HTML, CSS, JavaScript, Responsive UI</p></div>
-          <div class="skill-card fade-up"><strong>Backend</strong><p>Node.js, Express.js, MongoDB, MySQL</p></div>
-          <div class="skill-card fade-up"><strong>Game Dev</strong><p>Unity Engine, joystick controls, interaction, scoring</p></div>
-          <div class="skill-card fade-up"><strong>AI/ML</strong><p>OpenCV, TensorFlow, Regression & Classification</p></div>
-          <div class="skill-card fade-up"><strong>Cyber Security</strong><p>Basics, secure systems, awareness via AWS & Infosys</p></div>
-          <div class="skill-card fade-up"><strong>Soft Skills</strong><p>Teamwork, Problem-Solving, Communication</p></div>
+        <div class="credential-column achievements reveal">
+          <h3>Achievements &amp; Activities</h3>
+          <div class="achievement"><span class="achievement-icon">↗</span>
+            <div><b>Smart India Hackathon 2025</b>
+              <p>Qualified for and cleared the college-level round; led a team, coordinated task distribution, and
+                supported project development.</p>
+            </div>
+          </div>
+          <div class="achievement"><span class="achievement-icon">✳</span>
+            <div><b>Hackathon Participation</b>
+              <p>Participated in IIIT Delhi Hackathon and IILM University Hack’oClock 1.0 and 2.0.</p>
+            </div>
+          </div>
+          <div class="achievement"><span class="achievement-icon">#3</span>
+            <div><b>3rd Rank — Technical Quiz</b>
+              <p>Recognised for technical knowledge and quick thinking.</p>
+            </div>
+          </div>
+          <div class="achievement"><span class="achievement-icon">◎</span>
+            <div><b>Workshops &amp; Learning</b>
+              <p>Cyber Security workshop (IILM University, Jan 2026) and Employability Essentials webinar (July 2025).
+              </p>
+            </div>
+          </div>
+          <div class="achievement"><span class="achievement-icon">＋</span>
+            <div><b>Peer Guidance</b>
+              <p>Guided juniors and classmates in the basics of machine learning and cybersecurity tools.</p>
+            </div>
+          </div>
         </div>
-      </section>
-
-      <section id="contact" class="section fade">
-        <h2>Contact</h2>
-        <form action="https://formspree.io/f/xwkgvkoj" method="POST" class="contact-form fade-up">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="_replyto" placeholder="Your Email" required>
-          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-          <button type="submit">Send Message</button>
-        </form>
-        <div class="social-links fade-up">
-          <a href="mailto:us7692334@gmail.com">📧 Email</a>
-          <a href="https://linkedin.com/in/utkarsh-singh-parihar-90b564254" target="_blank">🔗 LinkedIn</a>
-          <a href="https://github.com/UtkarshSingh-01" target="_blank">💻 GitHub</a>
+      </div>
+    </section>
+    <section class="section contact-section" id="contact">
+      <div class="contact-panel reveal">
+        <div>
+          <p class="kicker">06 / CONTACT</p>
+          <h2>Have an idea?<br><span>Let's build it.</span></h2>
+          <p>I'm open to internship and full-time opportunities, collaborations, and conversations about software, AI,
+            and creative technology.</p><a class="btn btn-primary"
+            href="mailto:utkarsh.s.parihar10@gmail.com?subject=Let's%20connect">Email me <span>↗</span></a>
         </div>
-      </section>
-    </main>
-  </div>
-
-  <script>
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-        }
-      });
-    }, { threshold: 0.2 });
-
-    document.querySelectorAll(".fade, .fade-up, .slide-up").forEach(el => observer.observe(el));
-  </script>
+        <div class="contact-details"><span class="contact-label">EMAIL</span><a
+            href="mailto:utkarsh.s.parihar10@gmail.com">utkarsh.s.parihar10@gmail.com ↗</a><span
+            class="contact-label">PHONE</span><button id="phoneReveal" class="phone-reveal">Reveal phone number
+            +</button><span id="phoneNumber" class="phone-number" hidden>+91 93361 02780</span><span
+            class="contact-label">ELSEWHERE</span>
+          <div class="contact-socials"><a href="https://github.com/UtkarshSingh-01" target="_blank"
+              rel="noreferrer">GitHub ↗</a><a href="https://linkedin.com/in/utkarsh-singh-parihar-90b564254"
+              target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://leetcode.com/u/Utkarsh1011/"
+              target="_blank" rel="noreferrer">LeetCode ↗</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">U<span>.</span></span><span>USP<span
+          class="brand-dot">/</span></span></a>
+    <p>Designed &amp; built with curiosity.</p><span>© <span id="year"></span> Utkarsh Singh Parihar</span><a
+      href="#home" class="back-top">BACK TO TOP ↑</a>
+  </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
